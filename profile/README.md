@@ -1,59 +1,116 @@
 <div align="center">
 
-# Column Dynamics
+```
+ ██████╗ ██████╗ ██╗     ██╗   ██╗███╗   ███╗███╗   ██╗
+██╔════╝██╔═══██╗██║     ██║   ██║████╗ ████║████╗  ██║
+██║     ██║   ██║██║     ██║   ██║██╔████╔██║██╔██╗ ██║
+██║     ██║   ██║██║     ██║   ██║██║╚██╔╝██║██║╚██╗██║
+╚██████╗╚██████╔╝███████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚████║
+ ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═══╝
+          D Y N A M I C S
+```
 
-**Building infrastructure, intelligent systems, and software that help people create, operate, and scale with less complexity.**
+### Building systems that reduce complexity.
 
-[Website](https://columndynamics.com) · [LinkedIn](https://www.linkedin.com/company/column-dynamics) · [X](https://x.com/columndynamics) · [YouTube](https://www.youtube.com/@columndynamics) · [Instagram](https://www.instagram.com/columndynamics/)
+Infrastructure, intelligent systems, and software that help people<br/>create, operate, and scale — with less friction.
+
+[![Website](https://img.shields.io/badge/Website-columndynamics.com-6366F1?style=for-the-badge&logo=google-chrome&logoColor=white)](https://columndynamics.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Column_Dynamics-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/column-dynamics)
+[![X](https://img.shields.io/badge/X-@columndynamics-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/columndynamics)
 
 </div>
 
 ---
 
-## What We Build
+## ⚡ What We Do
 
-We create tools and systems that reduce the distance between intention and execution. Our products serve developers, engineers, and teams who want to ship faster without sacrificing quality.
+We build tools that eliminate the gap between **what you want to build** and **what actually ships**. No bloat. No ceremony. Just systems that work.
 
-## Products
+```
+Intention  →  [ Column Dynamics ]  →  Execution
+```
 
-### 🏗️ [Buildyard](https://buildyard.pro)
+---
+
+## 🚀 Products
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏗️ Buildyard
 
 **Your autonomous software build yard.**
 
-Buildyard coordinates specialized AI agents that plan architecture, generate production modules, validate behavior, and deploy safely — from your first prompt to your last production push.
+Multi-agent AI system that plans architecture, generates production modules, validates behavior, and deploys safely.
 
-- Multi-agent orchestration for the full software lifecycle
-- Repo intelligence — analyzes existing codebases to build from context
-- Production-aware: staging simulation, deployment gates, canary rollout
-- CLI-first workflow
+```bash
+$ by init my-saas --from-spec brief.md
+✓ architecture extracted
+✓ 18 modules planned
+✓ agents assigned
 
-### 🛠️ [DevUtils](https://devutils.in)
+$ by build --parallel
+$ by validate
+$ by ship --canary 10%
+✓ shipped
+```
+
+**→** [buildyard.pro](https://buildyard.pro)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ DevUtils
 
 **Screenshot. PDF. Webhook. One key.**
 
-Developer utilities that just work. Generate pixel-perfect screenshots, convert HTML to PDF, and inspect webhooks in real time — no infrastructure to manage.
+Developer utilities that just work. No infrastructure to manage. Sub-800ms renders. 99.9% uptime.
 
-- Screenshot API — any page, pixel-perfect, sub-800ms
-- HTML to PDF — invoices, reports, certificates
-- Webhook Inspector — instant debug endpoints
-- 8 SDKs, 99.9% uptime SLA
+```typescript
+const res = await devutils.screenshot({
+  url: "https://stripe.com",
+  fullPage: true,
+  blockAds: true,
+})
+// → screenshot.png · 723ms · 284KB
+```
 
-## Philosophy
+**→** [devutils.in](https://devutils.in)
 
-Every product we build exists to reduce friction between intention and execution. We don't build tools that require more tools. We build systems that get out of the way.
+</td>
+</tr>
+</table>
 
-## Connect
+---
 
-|              |                                                                  |
-| ------------ | ---------------------------------------------------------------- |
-| 🌐 Website   | [columndynamics.com](https://columndynamics.com)                 |
-| 🏗️ Buildyard | [buildyard.pro](https://buildyard.pro)                           |
-| 🛠️ DevUtils  | [devutils.in](https://devutils.in)                               |
-| 💼 Careers   | [columndynamics.com/careers](https://columndynamics.com/careers) |
-| 📬 Contact   | [columndynamics.com/contact](https://columndynamics.com/contact) |
+## 🧠 Philosophy
+
+| Principle             | What it means                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| **Reduce, don't add** | Every product removes complexity. We never ship something that requires more tools to use. |
+| **Ship > Spec**       | Working software over comprehensive documentation. Build it, validate it, ship it.         |
+| **Developer-first**   | If a developer can't use it in under 5 minutes, we redesign it.                            |
+| **Production-aware**  | We don't stop at code generation. Staging, deployment, monitoring — the full lifecycle.    |
+
+---
+
+## 📡 Connect
+
+<div align="center">
+
+|                  🌐                   |                 🏗️                 |               🛠️                |                      💼                       |                      📬                       |
+| :-----------------------------------: | :--------------------------------: | :-----------------------------: | :-------------------------------------------: | :-------------------------------------------: |
+| [Website](https://columndynamics.com) | [Buildyard](https://buildyard.pro) | [DevUtils](https://devutils.in) | [Careers](https://columndynamics.com/careers) | [Contact](https://columndynamics.com/contact) |
+
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@columndynamics)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/columndynamics/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/column-dynamics)
+
+</div>
 
 ---
 
 <div align="center">
-<sub>© 2026 Column Dynamics. Building systems that reduce complexity.</sub>
+<sub><strong>Column Dynamics</strong> · © 2026 · Building the future, one system at a time.</sub>
 </div>
